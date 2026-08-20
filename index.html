@@ -1,36 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facebook- ogin or sign up</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="Facebook_icon.svg.webp" type="image/webp" />
+    <title>Facebook - Log in or sign up</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <div class="leftSection">
-        <img src="img/facebookLogo.svg" alt="Facebook Logo" />
-        <h1>
-          Facebook helps you connect and share <br> with the people in your life
-        </h1>
-      </div>
-      <div class="rightSection">
-        <div class="Email_PhoneNo_Input">
-          <input type="text" placeholder="Email address or phone number" />
+    <div class="container">
+      <section class="leftPart">
+        <h1>facebook</h1>
+        <p>
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </section>
+      <section class="rightPart">
+        <div class="loginPage">
+          <form action="">
+            <input type="email" placeholder="Email address or mobile number" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log in" />
+          </form>
+          <p>
+            <a
+              href="https://www.facebook.com/login/identify/?ci=AdAIBmZZUBiH4wAQd_v8U19To4YCEVLRhlA5g4X1gJE7xPmMXYgG8eIIbULCctvFdIcVw8KS1vtgO1pVVzgGODaTMNEnjkqcCXAJ0NkLd48HNd9AbSWMsTJ2mJ9dqKASj2kO8KpUT18jU9oKk3yB_A9pyM9HH9m8R7_mw65ked-A0L6HioLdO1fei-5yR2NHEFj0jMfWVmgS764XW4db4Ysyx3pRucrDyJoxXfVfsTf36aKwlY1qupwCxUOvWiU6CGqy0XHtKmeTUV7aRrcd643Bdtsc"
+              >Forgotten password?</a
+            >
+          </p>
+          <hr />
+          <div class="createAccount">
+            <a href="https://www.facebook.com/reg/?entry_point=login"
+              >Create a new account</a
+            >
+          </div>
         </div>
-        <div class="Password">
-          <input type="password" placeholder="Password" />
-        </div>
-        <div class="logIn">
-          <button>Log In</button>
-        </div>
-        <div class="forgotPass">
-          <a href="Forgotten Password?"></a>
-        </div>
-        <div class="createAccount">
-          <button>Create Account</button>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
