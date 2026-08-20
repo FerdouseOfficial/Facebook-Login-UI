@@ -4,71 +4,28 @@
     box-sizing: border-box;
 }
 
-html,body{
+html{
     height: 100%;
     width: 100%;
 }
+
 section{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.leftSection{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    display: none;
-}
-.leftSection img{
+section img{
     height: 100px;
-    width: 300px;
-    object-fit: cover;
+    width: 302.77px;
 }
-.leftSection p{
-    font-size: 45px;
+section .leftSection h1{
+    height: 104px;
+    width: 720px;
 }
-.rightSection{
-    height: 400px;
-    width: 400px;
-    border: 2px solid #0866ff;
+.leftSection {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    text-align: center;
-    gap: 5px;
-}
-input{
-    width: 100%;
-    padding: 10px 90px;
-    border: 2px solid #0866ff;
-    display: flex;
-    align-items: start;
     justify-content: start;
-}
-.logIn{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.logIn button{
-    background-color: #0866ff;
-    outline: none;
-    padding: 10px 45px;
-    box-shadow: none;
-    text-align: center;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-}
-.createAccount button{
-    background-color: #33ff00;
-    padding: 10px 50px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    align-items: start;
+    flex-direction: column;
 }
